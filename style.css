@@ -1,0 +1,89 @@
+body {
+	background-image: url('https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg');
+	background-color: #baa97b;
+	color: #131314;
+	font-family: Garamond, serif;
+}
+.topnav{
+	overflow: hidden;
+	font-family: Garamond, serif;
+	/*padding: 2px 2px;*/
+}
+
+.topnav a{
+	float: left;
+	font-size: 27px;
+	color: #454441;
+	background-color:#d9cca7;
+	text-align: center;
+	padding: 5px 18px;
+	text-decoration: none;
+	outline-style:none;
+	/*outline-style:inset;*/
+    /*border-radius: 15px 15px 0px 0px;*/
+}
+.topnav a:hover , .dropdown:hover .dropbtn{
+	background-color: #ddd;
+	color: black;
+	/*outline-style:inset;*/
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: blue;
+}
+
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 27px;  
+	border: none;
+	outline: none;
+	color: #454441;
+	background-color:#d9cca7;
+	padding: 5px 18px;
+	font-family: inherit;
+	margin: 0;
+	/*outline-style:inset;*/
+    /*border-radius: 15px 15px 0px 0px;*/
+	font-family: Garamond, serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}*/
